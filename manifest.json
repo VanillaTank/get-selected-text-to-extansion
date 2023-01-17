@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Выделенный текст",
+    "description": "Получение выделенного текста в расширении браузера",
+    "version": "1.0",
+    "action": {      
+        "default_popup": "popup.html"
+    },
+
+	"icons": { "16": "leaf.png",
+               "48": "leaf.png",
+               "128": "leaf.png" },
+
+	"permissions": [
+        "tabs", "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>" 
+    ]		   
+}
